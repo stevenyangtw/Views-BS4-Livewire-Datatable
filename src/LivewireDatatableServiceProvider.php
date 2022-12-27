@@ -1,6 +1,6 @@
 <?php
 
-namespace stevenyang\LivewireDatatableViewsBs4;
+namespace stevenyangtw\LivewireDatatableViewsBs4;
 
 use Illuminate\Support\ServiceProvider as Provider;
 
