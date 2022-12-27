@@ -14,18 +14,18 @@ final class LivewireDatatableServiceProvider extends Provider
     public function boot(): void
     {
         //Load the views
-        $this->loadViewsFrom(__DIR__ . '/../resources/views/bootstrap', 'LivewireDatatableBs4');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views/bootstrap', 'LivewireDatatableViewsBs4');
         //Publish views
         $this->publishes([
             __DIR__ . '/../resources/views/bootstrap' => resource_path('views/livewire/datatables'),
-        ], 'livewire-datatable-bs4');
+        ], 'livewire-datatable-views-bs4');
 
         //Load language translations...
         $this->loadTranslationsFrom(resource_path('lang'), 'LivewireDatatableViewsBs4');
         //Publish translations
         $this->publishes([
             __DIR__ . '/../resources/lang' => resource_path('lang/vendor/LivewireDatatableViewsBs4'),
-        ], 'livewire-datatable-bs4');
+        ], 'livewire-datatable-views-bs4');
     }
 
     /**
