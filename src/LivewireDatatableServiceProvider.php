@@ -1,6 +1,6 @@
 <?php
 
-namespace Emmanuel\LivewireDatatableBs4;
+namespace stevenyang\LivewireDatatableViewsBs4;
 
 use Illuminate\Support\ServiceProvider as Provider;
 
@@ -21,10 +21,10 @@ final class LivewireDatatableServiceProvider extends Provider
         ], 'livewire-datatable-bs4');
 
         //Load language translations...
-        $this->loadTranslationsFrom(resource_path('lang'), 'LivewireDatatableBs4');
+        $this->loadTranslationsFrom(resource_path('lang'), 'LivewireDatatableViewsBs4');
         //Publish translations
         $this->publishes([
-            __DIR__ . '/../resources/lang' => resource_path('lang/vendor/LivewireDatatableBs4'),
+            __DIR__ . '/../resources/lang' => resource_path('lang/vendor/LivewireDatatableViewsBs4'),
         ], 'livewire-datatable-bs4');
     }
 
