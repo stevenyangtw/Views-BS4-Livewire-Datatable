@@ -14,12 +14,12 @@ You need:
 - [Jetstrap](https://github.com/nascent-africa/jetstrap)
 
 ## Download
-    composer require emmanuel/livewire-datatable-bs4
+    composer require stevenyangtw/livewire-datatable-views-bs4
 
 ## Installation
    No publish default views of Livewire Datatables.
    
-    php artisan vendor:publish --tag="livewire-datatable-bs4"
+    php artisan vendor:publish --tag="livewire-datatable-views-bs4"
 
 ## Screenshots
 - Template Syntax
