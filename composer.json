@@ -14,8 +14,8 @@
     ],
     "type": "library",
     "require": {
-        "mediconesystems/livewire-datatables": "^0.6.6|^0.5.4|^0.4.3|^0.10.0|dev-master",
-        "league/flysystem": "^1.1.4"
+        "mediconesystems/livewire-datatables": "^0.10.0|dev-master",
+        "league/flysystem": "^3.10.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
