@@ -1,5 +1,5 @@
 {
-    "name": "stevenyangtw/livewiredatatable-bs4",
+    "name": "stevenyangtw/livewire-datatable-views-bs4",
     "description": "Views for the package MedicOneSystems Livewire Datatables with Bootstrap 4",
     "keywords": [
         "mediconesystems",
@@ -29,13 +29,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "stevenyangtw\\LivewireDatatableBs4\\": "src"
+            "stevenyangtw\\LivewireDatatableViewsBs4\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "stevenyangtw\\LivewireDatatableBs4\\LivewireDatatableServiceProvider"
+                "stevenyangtw\\LivewireDatatableViewsBs4\\LivewireDatatableServiceProvider"
             ]
         }
     },
